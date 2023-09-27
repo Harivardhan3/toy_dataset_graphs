@@ -6,4 +6,5 @@ Fig1 = px.bar(df, x= 'Gender', y = 'Income', title = 'Bar plot depicting Income 
 Fig2 = px.box(df, x= 'Gender', y = 'Age', title = 'Box plot depicting age based on Gender')
 st.plotly_chart(Fig1)
 st.plotly_chart(Fig2)
+st.markdown("## Detailed Data table View")
 st.dataframe(df)
